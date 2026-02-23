@@ -31,7 +31,7 @@ Premiére initialisation de terraform :
 creation du fichier .terraform.lock.hcl qui contient les providers utilisés et leurs versions
 
 <p align="center">
-    <img src="/document/Image/2_init_terraform.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/2_init_terraform.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
@@ -43,12 +43,12 @@ ressource-group
 sous réseaux
 virtual network
 <p align="center">
-    <img src="/document/Image/3_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/3_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
 <p align="center">
-    <img src="/document/Image/4_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/4_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
@@ -60,33 +60,33 @@ mise en place des groupes de sécurité
 ssh
 j'ai remplacer le addresse prexies * par mon adresse ip pour plus de sécurité
 
-"*"
 <p align="center">
-    <img src="/document/Image/5_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="250"/>
+Erreur : "*"
+    <img src="/document/Image/5_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
-"addresse ip perso"
 <p align="center">
-    <img src="/document/Image/changement_*_par_ip_perso.png" alt="il doit y avoir une image ici :)" width="250"/>
+Bonne pratique : "addresse ip perso"
+    <img src="/document/Image/changement_*_par_ip_perso.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
 
+<p align="center">
 tcp 
-<p align="center">
-    <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
+<p align="center">
 deny all
-<p align="center">
-    <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
-<p align="center">
-    <img src="/document/Image/8_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="250"/>
+<p>
+    <img src="/document/Image/8_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
@@ -98,7 +98,7 @@ creation de machine virtuelle :
 - resource_group_name : tp-limayrac-rg
 
 <p align="center">
-    <img src="/document/Image/9_VM_creer.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/9_VM_creer.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
@@ -132,14 +132,14 @@ Application :
 Page de présentation du load balancer 
 
 - VM1
-<p align="center">
-    <img src="/document/Image/Page_presentation_vm1.png" alt="il doit y avoir une image ici :)" width="250"/>
+<p>
+    <img src="/document/Image/Page_presentation_vm1.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
 - VM2
-<p align="center">
-    <img src="/document/Image/page presentation_vm2.png" alt="il doit y avoir une image ici :)" width="250"/>
+<p>
+    <img src="/document/Image/page presentation_vm2.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
@@ -149,7 +149,7 @@ Page de présentation du load balancer
 
 j'ai remplacer count par foreach :
 
-<p align="center">
-    <img src="/document/Image/replace_count_foreach.png" alt="il doit y avoir une image ici :)" width="250"/>
+<p>
+    <img src="/document/Image/replace_count_foreach.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
