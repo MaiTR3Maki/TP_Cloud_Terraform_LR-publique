@@ -26,14 +26,14 @@ bash
 
 Version de azure et terraform utilisé pour le tp
 <p>
-    <img src="/document/Image/version-terraform.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/version-terraform.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 
 voici l'architecuture du dossier de travail pour le tp terraform
 <p align="center">
-    <img src="/document/Image/Tree_terraform.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/Tree_terraform.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
