@@ -26,21 +26,21 @@ bash
 
 Version de azure et terraform utilisé pour le tp
 <p>
-    <img src="/document/Image/version-terraform.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/version-terraform.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
 
 voici l'architecuture du dossier de travail pour le tp terraform
 <p align="center">
-    <img src="/document/Image/Tree_terraform.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/Tree_terraform.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
 
 le providers.tf permet a terraform savoir comment se connecter a azure grâce à l'id de l'utilisateur
 <p align="center">
-    <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -49,7 +49,7 @@ Premiére initialisation de terraform :
 creation du fichier .terraform.lock.hcl qui contient les providers utilisés et leurs versions
 
 <p align="center">
-    <img src="/document/Image/2_init_terraform.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/2_init_terraform.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -61,12 +61,12 @@ ressource-group
 sous réseaux
 virtual network
 <p align="center">
-    <img src="/document/Image/3_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/3_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
 <p align="center">
-    <img src="/document/Image/4_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/4_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -82,7 +82,7 @@ j'ai remplacer le addresse prexies * par mon adresse ip pour plus de sécurité
 Erreur : "*"
 </p>
 <p align="center">
-    <img src="/document/Image/5_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/5_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -90,7 +90,7 @@ Erreur : "*"
 Bonne pratique : "addresse ip perso"
 </p>
 <p align="center">
-    <img src="/document/Image/changement_*_par_ip_perso.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/changement_*_par_ip_perso.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -99,17 +99,17 @@ Bonne pratique : "addresse ip perso"
 http + deny all
 </p>
 <p align="center">
-    <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
 <p align="center">
-    <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
 <p>
-    <img src="/document/Image/8_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/8_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -121,7 +121,7 @@ Creation de machine virtuelle :
 - resource_group_name : tp-limayrac-rg
 
 <p>
-    <img src="/document/Image/9_VM_creer.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/9_VM_creer.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -217,13 +217,13 @@ Page de présentation du load balancer
 
 - VM1
 <p>
-    <img src="/document/Image/Page_presentation_vm1.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/Page_presentation_vm1.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
 - VM2
 <p>
-    <img src="/document/Image/page presentation_vm2.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/page presentation_vm2.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
 
@@ -234,6 +234,6 @@ Page de présentation du load balancer
 j'ai remplacer count par foreach :
 
 <p>
-    <img src="/document/Image/replace_count_foreach.png" alt="il doit y avoir une image ici :)" width="750"/>
+    <img src="/document/Image/replace_count_foreach.png" alt="il doit y avoir une image ici :)" width="1000"/>
   </a>
 </p>
