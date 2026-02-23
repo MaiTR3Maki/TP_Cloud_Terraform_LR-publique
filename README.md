@@ -1,6 +1,6 @@
 # TP_Cloud_Terraform_LR
 
-A la fin du readme il y a toutes les capture final :
+A la fin du readme il y a toutes les capture final juste après le load balancer(capture bleu) :
 - terraform plan
 - terraform apply
 - terraform destroy
