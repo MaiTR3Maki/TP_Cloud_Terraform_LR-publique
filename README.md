@@ -1,23 +1,25 @@
 # TP_Cloud_Terraform_LR
-
-TP réalisé sous Linux Ubuntu 22.04 LTS
-
 # 1. Installer l'Azure CLI
+TP réalisé sous Linux Ubuntu 22.04 LTS
 Linux : 
     curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
-Se connecter 
-Bash
-
-    az login
-
-Ouvrez votre terminal local et tapez :
+Se connecter via le terminal à son compte Azure :
 Bash
 
     az login
 
 
 Installer Terraform : https://developer.hashicorp.com/terraform/downloads
+
+bash
+
+    wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+    
+    sudo apt update && sudo apt install terraform
+
 
 
 Version de azure et terraform utilisé pour le tp
@@ -40,7 +42,7 @@ le providers.tf permet a terraform comment de se connecter a azure grâce à l'i
   </a>
 </p>
 
-## Partie 1 — Structure du projet et configuration du provider (10 pts)
+## Partie 1 — Structure du projet et configuration du provider 
 Premiére initialisation de terraform :
 creation du fichier .terraform.lock.hcl qui contient les providers utilisés et leurs versions
 
@@ -49,7 +51,7 @@ creation du fichier .terraform.lock.hcl qui contient les providers utilisés et 
   </a>
 </p>
 
-## Partie 2 — Réseau : Resource Group, VNET et Subnet (15 pts)
+## Partie 2 — Réseau : Resource Group, VNET et Subnet 
 
 terraform plan : permet de voir les actions qui seront effectuées par terraform avant de les appliquer
 ont peut voir qu'il a creer le :
@@ -67,7 +69,7 @@ virtual network
 </p>
 
 
-## Partie 3 — Sécurité : Network Security Group et règles firewall (15 pts)
+## Partie 3 — Sécurité : Network Security Group et règles firewall 
 
 mise en place des groupes de sécurité 
 
@@ -92,16 +94,13 @@ Bonne pratique : "addresse ip perso"
 
 
 <p align="center">
-tcp 
+http + deny all
 </p>
 <p align="center">
     <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
-<p align="center">
-deny all
-</p>
 <p align="center">
     <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
@@ -112,7 +111,7 @@ deny all
   </a>
 </p>
 
-## Partie 4 — Machines virtuelles (25 pts)
+## Partie 4 — Machines virtuelles 
 
 Creation de machine virtuelle :
 
@@ -196,9 +195,9 @@ après la création de la machine virtuelle, j'ai mis en place un script d'init 
   ```
 
 
-## Partie 5 — Load Balancer (25 pts)
+## Partie 5 — Load Balancer
 
-modifier le main pour créer un load balancer et ajouter les machines virtuelles au backend pool
+modifier le main.tf pour créer un load balancer et ajouter les machines virtuelles au backend pool
 
 output.tf : permet d'afficher des informations après l'execution de terraform apply
 
