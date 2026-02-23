@@ -1,4 +1,11 @@
 # TP_Cloud_Terraform_LR
+
+A la fin du readme il y a toutes les capture final :
+- terraform plan
+- terraform apply
+- terraform destroy
+
+
 # 1. Installer l'Azure CLI
 TP réalisé sous Linux Ubuntu 22.04 LTS
 
@@ -280,6 +287,19 @@ terraform plan
   terraform apply :
   <p>
     <img src="/document/Image/terrform_apply .png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+
+destruction de l'infrastructure : 
+  terraform destroy 
+
+  <p>
+    <img src="/document/Image/destroy1.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+    <p>
+    <img src="/document/Image/destroy2.png" alt="il doit y avoir une image ici :)" width="1000"/>
     </a>
   </p>
 
