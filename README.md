@@ -229,6 +229,61 @@ Page de présentation du load balancer
 
 
 
+# capture final 
+
+terraform plan 
+
+<p>
+    <img src="/document/Image/1plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+  </a>
+  <p>
+    <img src="/document/Image/2plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/3plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/4plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/5plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/6plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/7plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/8plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+  <p>
+    <img src="/document/Image/9plan.png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+
+  terraform apply :
+  <p>
+    <img src="/document/Image/terrform_apply .png" alt="il doit y avoir une image ici :)" width="1000"/>
+    </a>
+  </p>
+
+
 ## Bonus/correction :  
 
 j'ai remplacer count par foreach :
