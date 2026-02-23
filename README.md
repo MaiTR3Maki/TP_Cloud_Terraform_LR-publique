@@ -38,7 +38,7 @@ voici l'architecuture du dossier de travail pour le tp terraform
 </p>
 
 
-le providers.tf permet a terraform comment de se connecter a azure grâce à l'id de l'abonnement
+le providers.tf permet a terraform savoir comment se connecter a azure grâce à l'id de l'utilisateur
 <p align="center">
     <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
