@@ -40,7 +40,7 @@ voici l'architecuture du dossier de travail pour le tp terraform
 
 le providers.tf permet a terraform savoir comment se connecter a azure grâce à l'id de l'utilisateur
 <p align="center">
-    <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
@@ -49,7 +49,7 @@ Premiére initialisation de terraform :
 creation du fichier .terraform.lock.hcl qui contient les providers utilisés et leurs versions
 
 <p align="center">
-    <img src="/document/Image/2_init_terraform.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/2_init_terraform.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
