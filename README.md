@@ -22,7 +22,7 @@ le providers.tf permet a terraform comment de se connecter a azure grâce à l'i
 
 
 <p align="center">
-    <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="250"/>
+    <img src="/document/Image/1_providers_conf.png" alt="il doit y avoir une image ici :)" width="500"/>
   </a>
 </p>
 
@@ -43,12 +43,12 @@ ressource-group
 sous réseaux
 virtual network
 <p align="center">
-    <img src="/document/Image/3_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/3_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 <p align="center">
-    <img src="/document/Image/4_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/4_Terraform_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
@@ -62,31 +62,31 @@ j'ai remplacer le addresse prexies * par mon adresse ip pour plus de sécurité
 
 <p align="center">
 Erreur : "*"
-    <img src="/document/Image/5_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/5_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 <p align="center">
 Bonne pratique : "addresse ip perso"
-    <img src="/document/Image/changement_*_par_ip_perso.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/changement_*_par_ip_perso.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 
 <p align="center">
 tcp 
-    <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/6_sécurity_plan.png.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 <p align="center">
 deny all
-    <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/7_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 <p>
-    <img src="/document/Image/8_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/8_sécurity_plan.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
@@ -98,7 +98,7 @@ creation de machine virtuelle :
 - resource_group_name : tp-limayrac-rg
 
 <p align="center">
-    <img src="/document/Image/9_VM_creer.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/9_VM_creer.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
@@ -133,13 +133,13 @@ Page de présentation du load balancer
 
 - VM1
 <p>
-    <img src="/document/Image/Page_presentation_vm1.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/Page_presentation_vm1.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
 - VM2
 <p>
-    <img src="/document/Image/page presentation_vm2.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/page presentation_vm2.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
 
@@ -150,6 +150,6 @@ Page de présentation du load balancer
 j'ai remplacer count par foreach :
 
 <p>
-    <img src="/document/Image/replace_count_foreach.png" alt="il doit y avoir une image ici :)" width="500"/>
+    <img src="/document/Image/replace_count_foreach.png" alt="il doit y avoir une image ici :)" width="750"/>
   </a>
 </p>
